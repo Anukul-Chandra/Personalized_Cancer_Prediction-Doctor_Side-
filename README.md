@@ -1,11 +1,9 @@
 
-# 🩺 Personalized Cancer Prediction Doctor
+# 🩺 Personalized Cancer Prediction for Doctors
 
 A machine learning-driven web application that provides personalized cancer risk predictions. Built with FastAPI and powered by multiple ML models, this tool helps healthcare professionals and researchers analyze genetic mutation data to generate detailed cancer risk assessments. 
 
-🌐 **Live Application**:
-You can see this project live here : (https://personalized-cancer-prediction-doctor-g2k6.onrender.com/)
-🎯## Features
+🎯 **Feature**
 - ✨ **Multiple ML Model Support** - Choose from various trained models for different cancer prediction scenarios
 - 🚀 **FastAPI Backend** - High-performance, modern Python web framework for lightning-fast predictions
 - 📊 **Detailed Prediction Results** - Get comprehensive risk assessments with probability scores
@@ -13,9 +11,22 @@ You can see this project live here : (https://personalized-cancer-prediction-doc
 - 🧠 **Intelligent Model Selection** - Automatically loads the appropriate model based on your request
 - 🔒 **Production-Ready** - Built with best practices for deployment on cloud platforms## Demo
 
-🌐 **Live Application**: [https://personalized-cancer-prediction-doctor.onrender.com/](https://personalized-cancer-prediction-doctor.onrender.com/)
+🌐 **Live Application**: 
 
-Visit the live demo to see the API in action! The application is hosted on Render and ready to accept prediction requests.## Installation
+You can see this project live here : :[https://personalized-cancer-prediction-doctor.onrender.com/](https://personalized-cancer-prediction-doctor.onrender.com/)
+
+Visit the live demo to see the API in action! The application is hosted on Render and its free so some time takes time to loading requests.
+
+## Project Sample Image  :
+1.
+<img width="2522" height="2082" alt="screencapture-personalized-cancer-prediction-doctor-g2k6-onrender-2025-09-30-12_49_22 (1)" src="https://github.com/user-attachments/assets/32157bfe-40d9-4f7b-8a67-fba3aa65095e" />
+2.
+<img width="2522" height="2082" alt="screencapture-personalized-cancer-prediction-doctor-g2k6-onrender-2025-09-30-12_50_44" src="https://github.com/user-attachments/assets/25c68899-b725-4e9c-a19c-83eadbfbb682" />
+3.
+<img width="2522" height="2082" alt="screencapture-personalized-cancer-prediction-doctor-g2k6-onrender-2025-09-30-12_50_44 (1)" src="https://github.com/user-attachments/assets/66a6dcf1-3e6e-4295-a468-11a4d8fa2e15" />
+
+
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -41,7 +52,8 @@ Place your trained ML model (`.pkl` file) in the project directory. The applicat
 uvicorn app:app --reload
 ```
 
-The API will be available at `http://localhost:8000` 🚀## Deployment
+The API will be available at `http://localhost:8000`
+🚀## Deployment
 
 This application is deployed on **Render** and can be deployed on other cloud platforms like Heroku, AWS, or Google Cloud.
 
@@ -74,7 +86,8 @@ if __name__ == "__main__":
 
 5. **Deploy!** 🚀
 
-Your API will be live and ready to accept requests!## Usage/Examples
+Your API will be live and ready to accept requests!
+## Usage/Examples
 
 ### Making a Prediction Request
 Send a POST request to the `/predict` endpoint with genetic mutation data.
@@ -129,7 +142,8 @@ print(response.json())
 **Server:** Python, FastAPI
 ## Authors
 
-- [Anukul Chandra](https://www.github.com/octokatherine)
+
+- [@Anukul Chandra](https://github.com/Anukul-Chandra)
 
 
 ## Contributing
