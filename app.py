@@ -6,6 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import pickle
 import logging
+import os
 
 # Logging setup
 logging.basicConfig(level=logging.INFO)
@@ -124,4 +125,5 @@ async def predict(data: InputData):
 
 # Run server
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
     uvicorn.run(app, host="0.0.0.0", port=8000)
